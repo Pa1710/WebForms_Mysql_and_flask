@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block content %}
+<form action="/edit/{{team.id}}" method="post">
+    <div class="row">
+        <div class="col">
+            <label for="TeamName">TeamName</label>
+            <input id="TeamName" type="text" class="form-control" placeholder="TeamName" name="TeamName"
+                   value="{{team.TeamName}}">
+        </div>
+        <div class="col">
+            <label for="TeamPayroll">TeamPayroll</label>
+            <input id="TeamPayroll" type="text" class="form-control" placeholder="TeamPayroll"
+                   name="TeamPayroll" value="{{team.TeamPayroll}}">
+        </div>
+        <div class="col">
+            <label for="TeamWins">TeamWins</label>
+            <input id="TeamWins" type="text" class="form-control" placeholder="teamWins" name="TeamWins"
+                   value="{{team.TeamWins}}">
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+
+
+</form>
+{% endblock %}
+

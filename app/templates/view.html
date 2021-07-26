@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="card center mx-auto p-5">
+    <h4 class="card-title"> TeamName: {{ team.TeamName }} </h4>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">TeamPayroll: {{ team.TeamPayroll }}</li>
+        <li class="list-group-item">TeamWins: {{ team.TeamWins }}</li>
+    </ul>
+    <div class="card-body">
+        <a href="/edit/{{team.id}}" class="card-link btn btn-primary">edit</a>
+    </div>
+</div>
+<form action="/delete/{{team.id}}" method="post">
+    <button type="submit" class="btn btn-danger">Delete</button>
+</form>
+
+
+{% endblock %}
+
+

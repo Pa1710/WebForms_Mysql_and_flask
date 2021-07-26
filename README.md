@@ -4,7 +4,7 @@
 # Project Description
 ## This project is being built to create Webforms to add new records, update and delete data.
 
-#Link to the screenshots of the project 
+Link to the screenshots of the project 
 (https://github.com/Pa1710/WebForms_Mysql_and_flask/blob/main/Screenshots_of_Project.docx)
 
 # Images

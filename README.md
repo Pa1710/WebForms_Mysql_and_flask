@@ -4,6 +4,8 @@
 # Project Description
 ## This project is being built to create Webforms to add new records, update and delete data.
 
+#Link to the screenshots of the project (https://github.com/Pa1710/WebForms_Mysql_and_flask/blob/main/Screenshots_of_Project.docx)
+
 # Images
 ## [Pycharm database](https://github.com/Pa1710/WebForms_Mysql_and_flask/blob/main/Images/Pycharm%20database.PNG)
 ## [Homepage](https://github.com/Pa1710/WebForms_Mysql_and_flask/blob/main/Images/Homepageofmyproject.png)
